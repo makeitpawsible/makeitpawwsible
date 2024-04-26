@@ -1,0 +1,99 @@
+@import url(www.ykyk);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.7em;
+    cursor: default;
+    color:#fff;
+    text-shadow: 0 0 10px rgba(116, 116, 116) ;
+}
+
+.navigation a {
+    color: #fff;
+    font-size: 1.1em;
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 6px 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid #fff;
+    text-shadow: 0 0 10px rgba(166, 166, 166);
+}
+
+.headthing {
+    position:fixed;
+    opacity: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 12vh;
+    background-image: url(Impulsive\ Purple\ SW\ 6832\ -\ Purple\ Paint\ Color\ -\ Sherwin-Williams.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-attachment: fixed;
+    box-shadow: 0 0 50px rgba(166, 166, 166);
+}
+
+.hero {
+    position: fixed;
+    opacity: 75%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(dog.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.content {
+    color:#fff;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgb(116, 116, 116) ;
+    margin-top: 250px;
+}
+
+.content h1{
+    font-size: 3em;
+    margin-left: 10px;
+    margin-bottom: .7em;
+    text-align: center;
+}
+
+.content h3{
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 2em;
+    margin-left: 20px;
+    text-align: center;
+}

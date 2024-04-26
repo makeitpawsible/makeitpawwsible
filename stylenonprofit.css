@@ -1,0 +1,151 @@
+@import url(www.ykyk);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.7em;
+    cursor: default;
+    color:#fff;
+    text-shadow: 0 0 10px rgba(116, 116, 116) ;
+}
+
+.navigation a {
+    color: #fff;
+    font-size: 1.1em;
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 6px 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid #fff;
+    text-shadow: 0 0 10px rgba(166, 166, 166);
+}
+
+.headthing {
+    position:fixed;
+    opacity: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 12vh;
+    background-image: url(Impulsive\ Purple\ SW\ 6832\ -\ Purple\ Paint\ Color\ -\ Sherwin-Williams.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-attachment: fixed;
+}
+.background {
+    position:fixed;
+    opacity: 75%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(dog.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    background-attachment: fixed;
+}
+
+.video {
+    max-width: 0px;
+    max-height: 0px;
+    margin-right: 100px;
+    margin-left: 900px;
+    margin: 0 auto;
+    height: 90vh;
+    align-items: right;
+    padding-top: 30vh;
+    padding-left: 20vh;
+    padding-bottom: 15px;
+    
+}
+
+.content {
+    color:#fff;
+    text-align: auto;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgb(116, 116, 116) ;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.content h1{
+    text-align: left;
+    font-size: 3em;
+    margin-left: 30px;
+    margin-bottom: .7em;
+}
+
+.content p{
+    font-size: 1.2em;
+    margin-left: 40px;
+    margin-right: 35em;
+    text-align: left;
+    margin-bottom: .7em;
+}
+
+.contentu {
+    color:#fff;
+    text-align: auto;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgb(116, 116, 116) ;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.contentu h1{
+    text-align: left;
+    font-size: 3em;
+    margin-left: 670px;
+    margin-bottom: .7em;
+}
+
+.contentu p{
+    font-size: 1.2em;
+    margin-right: 40px;
+    margin-left: 35em;
+    text-align: left;
+    margin-bottom: .7em;
+}
+
+.for {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: -960px;
+    width: auto;
+    height: 300px;
+    background-size: 200px;
+    border-radius: 10px;
+
+}
+
+.bow {
+    margin-top: 190px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

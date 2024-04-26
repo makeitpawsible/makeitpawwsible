@@ -1,0 +1,135 @@
+@import url(www.ykyk);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.7em;
+    cursor: default;
+    color:#fff;
+    text-shadow: 0 0 10px rgba(116, 116, 116) ;
+}
+
+.navigation a {
+    color: #fff;
+    font-size: 1.1em;
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 6px 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid #fff;
+    text-shadow: 0 0 10px rgba(166, 166, 166);
+}
+
+.headthing {
+    position:fixed;
+    opacity: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 12vh;
+    background-image: url(Impulsive\ Purple\ SW\ 6832\ -\ Purple\ Paint\ Color\ -\ Sherwin-Williams.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+.background {
+    position: fixed;
+    opacity: 75%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(dog.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 100px;
+    width: auto;
+    height: 500px;
+    background-size: 200px;
+    border-radius: 10px;
+}
+
+.imagetu {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 100px;
+    width: auto;
+    height: 500px;
+    background-size: 200px;
+    border-radius: 10px;
+}
+
+.content {
+    color:#fff;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgb(116, 116, 116) ;
+    margin-top: -900px;
+}
+
+.content h1{
+    font-size: 3em;
+    margin-left: -890px;
+    margin-bottom: .7em;
+}
+
+.content p{
+    font-size: 1.2em;
+    margin-left: 75px;
+    margin-right: 500px;
+    text-align: left;
+}
+
+.contentu {
+    color:#fff;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px rgb(116, 116, 116) ;
+    margin-top: 400px;
+}
+
+.contentu h1{
+    font-size: 3em;
+    margin-right: -900px;
+    margin-bottom: .7em;
+}
+
+.contentu p{
+    font-size: 1.2em;
+    margin-left: 500px;
+    margin-right: 75px;
+    text-align: right;
+}
+
